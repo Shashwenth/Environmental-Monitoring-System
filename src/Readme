@@ -1,0 +1,10 @@
+Run these SQL Commands Before :
+
+mysql> CREATE TABLE weather_data (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        temperature DOUBLE NOT NULL,
+        humidity DOUBLE NOT NULL,
+        wind_speed DOUBLE,
+        weather_description VARCHAR(255),
+        timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
